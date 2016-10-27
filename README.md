@@ -6,12 +6,12 @@ It works by using the buzzer included in the Pibrella.
 
 What it does:
 * Upon start, it waits between 2 to 5 minutes
-	(If you set it to start on boot in a cron job, this gives you time to plug it in and run off before it starts)
+	- (If you set it to start on boot in a cron job, this gives you time to plug it in and run off before it starts)
 * Once going, it will beep a random tone, 0.25 to 1 second in length
 * It will then sleep for 1 to 5 minutes before beeping again
 * This will continue until one of the following:
 	* The Pibrella button is pressed 
-		This will initiate a shutdown to allow the Pi to be unplugged and removed
+		- This will initiate a shutdown to allow the Pi to be unplugged and removed
 	* The script is manually stopped
 	* The Pi is shutdown or otherwise powered off
 
